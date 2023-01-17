@@ -11,17 +11,17 @@ namespace FigureAreaCalculationLib.Figures
     public class Triangle : Figure
     {
         /// <summary>
-        /// Радиус
+        /// Сторона 1
         /// </summary>
         public double Side1 { get; private set; }
 
         /// <summary>
-        /// Радиус
+        /// Сторона 2
         /// </summary>
         public double Side2 { get; private set; }
 
         /// <summary>
-        /// Радиус
+        /// Сторона 3
         /// </summary>
         public double Side3 { get; private set; }
 

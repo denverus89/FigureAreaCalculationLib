@@ -21,6 +21,11 @@ namespace FigureAreaCalculationLib.FigureFactories
         {
             this._radius = radius;
         }
+
+        /// <summary>
+        /// Создание круга
+        /// </summary>
+        /// <returns></returns>
         public override Figure Create()
         {
             return new Circle(_radius);

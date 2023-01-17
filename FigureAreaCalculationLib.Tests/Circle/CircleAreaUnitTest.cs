@@ -5,6 +5,9 @@ using System;
 
 namespace FigureAreaCalculationLib.Tests
 {
+    /// <summary>
+    /// Тест круга
+    /// </summary>
     public class CircleAreaUnitTest
     {
         Figure circle;
@@ -16,6 +19,9 @@ namespace FigureAreaCalculationLib.Tests
             circle = circleFactory.Create();
         }
 
+        /// <summary>
+        /// Тест вычисления площади круга
+        /// </summary>
         [Test]
         public void Circle_Check_GetArea()
         {

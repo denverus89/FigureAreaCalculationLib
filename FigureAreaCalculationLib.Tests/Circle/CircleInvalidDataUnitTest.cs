@@ -5,6 +5,9 @@ using System;
 
 namespace FigureAreaCalculationLib.Tests
 {
+    /// <summary>
+    /// Тест круга
+    /// </summary>
     public class CircleInvalidDataUnitTest
     { 
         [SetUp]
@@ -13,6 +16,9 @@ namespace FigureAreaCalculationLib.Tests
 
         }
 
+        /// <summary>
+        /// Тест на некорректные входящие данные
+        /// </summary>
         [Test]
         public void Circle_Check_Invalid_Input_Data()
         {

@@ -27,6 +27,11 @@ namespace FigureAreaCalculationLib.FigureFactories
             this._side2 = side2;
             this._side3 = side3;
         }
+
+        /// <summary>
+        /// Создание треугольника
+        /// </summary>
+        /// <returns></returns>
         public override Figure Create()
         {
             return new Triangle(_side1, _side2, _side3);

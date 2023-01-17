@@ -7,6 +7,9 @@ using System;
 
 namespace FigureAreaCalculationLib.Tests
 {
+    /// <summary>
+    /// Тест треугольника
+    /// </summary>
     public class TriangleAreaAndRectangularUnitTest
     {
         Figure triangle;
@@ -18,6 +21,9 @@ namespace FigureAreaCalculationLib.Tests
             triangle = triangleFactory.Create();
         }
 
+        /// <summary>
+        /// Тест вычисления площади треугольника
+        /// </summary>
         [Test]
         public void Triangle_Check_GetArea()
         {
@@ -25,6 +31,9 @@ namespace FigureAreaCalculationLib.Tests
             Assert.AreEqual(72.62d, Math.Round(area, 2));
         }
 
+        /// <summary>
+        /// Тест вычисления: является ли треугольник прямоугольным (FALSE)
+        /// </summary>
         [Test]
         public void Triangle_Check_IsRectangular()
         {

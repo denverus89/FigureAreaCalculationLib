@@ -7,6 +7,9 @@ using System;
 
 namespace FigureAreaCalculationLib.Tests
 {
+    /// <summary>
+    /// Тест треугольника
+    /// </summary>
     public class TriangelInvalidDataUnitTest
     {
         
@@ -17,6 +20,9 @@ namespace FigureAreaCalculationLib.Tests
             
         }
 
+        /// <summary>
+        /// Тест на некорректные входящие данные
+        /// </summary>
         [Test]
         public void Triangle_Check_IsRectangular()
         {            

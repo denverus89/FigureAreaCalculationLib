@@ -9,6 +9,10 @@ namespace FigureAreaCalculationLib.Common
     /// </summary>
     public abstract class FigureFactory
     {
+        /// <summary>
+        /// Создание фигуры
+        /// </summary>
+        /// <returns></returns>
         public abstract Figure Create();
     }
 }
